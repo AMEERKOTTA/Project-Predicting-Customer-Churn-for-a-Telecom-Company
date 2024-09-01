@@ -26,3 +26,5 @@ The goal of this project is to predict whether a customer will churn (i.e., leav
 19. `MonthlyCharges`: The amount charged to the customer monthly.
 20. `TotalCharges`: The total amount charged to the customer over their tenure with the company.
 21. `Churn`: The target variable indicating whether the customer has churned (left the company) or not (Yes or No).
+
+The dataset is typically used to analyze factors that influence customer churn, which can help in building a predictive model to identify customers who are likely to churn in the future.
