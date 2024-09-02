@@ -28,3 +28,21 @@ The goal of this project is to predict whether a customer will churn (i.e., leav
 21. `Churn`: The target variable indicating whether the customer has churned (left the company) or not (Yes or No).
 
 The dataset is typically used to analyze factors that influence customer churn, which can help in building a predictive model to identify customers who are likely to churn in the future.
+
+### Column Data Types and Explanations:
++ customerID (object): Unique identifier for each customer. No preprocessing needed for modeling but useful for tracking.
++ gender (object): Categorical variable representing the customer's gender. Needs encoding (e.g., Male = 0, Female = 1).
++ SeniorCitizen (int64): Numerical representation (0 = No, 1 = Yes) indicating if the customer is a senior citizen. Already suitable for modeling.
++ Partner (object): Categorical variable indicating if the customer has a partner (Yes/No). Requires encoding.
++ Dependents (object): Categorical variable showing if the customer has dependents (Yes/No). Requires encoding.
++ tenure (int64): Numerical data showing the number of months the customer has been with the company. Ready for use in modeling.
++ PhoneService (object): Categorical variable indicating if the customer has phone service (Yes/No). Needs encoding.
++ MultipleLines (object): Categorical variable (Yes, No, or "No phone service") indicating multiple phone lines. Requires encoding.
++ InternetService (object): Categorical variable representing the type of internet service (DSL, Fiber optic, or No). Needs encoding.
++ OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies (object): Categorical variables indicating whether the customer has these add-ons (Yes, No, or "No internet service"). All require encoding.
++ Contract (object): Categorical variable for contract type (Month-to-month, One year, Two year). Requires encoding.
++ PaperlessBilling (object): Categorical variable indicating if the customer uses paperless billing (Yes/No). Needs encoding.
++ PaymentMethod (object): Categorical variable representing the payment method (e.g., Electronic check, Mailed check). Needs encoding.
++ MonthlyCharges (float64): Numerical variable representing the monthly charges. Suitable for modeling.
++ TotalCharges (object): Potential Issue: Should be numeric but is currently an object type. Needs conversion to a numeric type after handling any non-numeric or missing values.
++ Churn (object): Target variable indicating customer churn (Yes/No). Requires encoding (e.g., No = 0, Yes = 1).
