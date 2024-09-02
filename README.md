@@ -50,6 +50,24 @@ The dataset is typically used to analyze factors that influence customer churn, 
 ### Handling Missing Values
 There is no Missing Values in the dataset.
 
+### Categorical Columns Encoding
+
+**Label Encoding: Assigns a unique integer to each category in a column. For example, "Male" = 0, "Female" = 1.**
+
++ Use Case: Suitable when the categorical variable has an inherent order (ordinal). For example, "Low", "Medium", "High".
++ Not Ideal: For nominal (unordered) categories, as it introduces an artificial ordinal relationship.
+
+
+**One-Hot Encoding: Creates a binary column for each category in a feature. For example, if you have a "gender" column with "Male" and "Female", it creates two columns: "gender_Male" and "gender_Female".**
+
++ Use Case: Recommended for nominal (unordered) categorical variables. It avoids introducing any ordinal relationship and allows models to treat each category independently.
++ Not Ideal: For categorical variables with many unique values, as it can lead to a large number of new columns, causing a "curse of dimensionality."
+
+#### Note
+
++ **Nominal Data: Categories without order (use One-Hot Encoding).**
++ **Ordinal Data: Categories with a logical order (use Label Encoding).**
+
 ### Data Normalization and Standardization
 Data Normalization and Standardization are techniques used to scale the data features so that they fall within a specific range or have particular statistical properties. These techniques are crucial in machine learning because they help improve model performance and convergence speed, especially for algorithms that are sensitive to feature scaling, like neural networks or gradient descent-based models.
 
