@@ -73,3 +73,9 @@ Data Normalization and Standardization are techniques used to scale the data fea
 
  1. **Data Normalization** :-- Normalization is the process of scaling individual data points to have a range between 0 and 1 (or sometimes -1 to 1). This method is often useful when you want to bring all features to the same scale, especially when they are on different scales.
  2. **Data Standardization** :-- Standardization transforms the data to have a mean of 0 and a standard deviation of 1. This technique is often used when features have different units or scales but should have equal importance.
+
+**When to Use Normalization vs. Standardization?**
+
+**Normalization** is useful when you want to ensure all features are on the same scale, particularly when using algorithms that do not assume any specific distribution of data, like K-Nearest Neighbors (KNN) or Neural Networks.
+
+**Standardization** is more appropriate when the data follows a Gaussian distribution (bell curve). It's often used in algorithms that assume or are sensitive to normally distributed data, such as linear regression, logistic regression, or Support Vector Machines (SVM).
