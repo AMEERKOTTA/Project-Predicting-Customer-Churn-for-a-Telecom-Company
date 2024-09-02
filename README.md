@@ -46,3 +46,6 @@ The dataset is typically used to analyze factors that influence customer churn, 
 + MonthlyCharges (float64): Numerical variable representing the monthly charges. Suitable for modeling.
 + TotalCharges (object): Potential Issue: Should be numeric but is currently an object type. Needs conversion to a numeric type after handling any non-numeric or missing values.
 + Churn (object): Target variable indicating customer churn (Yes/No). Requires encoding (e.g., No = 0, Yes = 1).
+
+### Handling Missing Values
+There is no Missing Values in the dataset.
