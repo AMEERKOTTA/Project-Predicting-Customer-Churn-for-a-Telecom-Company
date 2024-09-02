@@ -49,3 +49,9 @@ The dataset is typically used to analyze factors that influence customer churn, 
 
 ### Handling Missing Values
 There is no Missing Values in the dataset.
+
+### Data Normalization and Standardization
+Data Normalization and Standardization are techniques used to scale the data features so that they fall within a specific range or have particular statistical properties. These techniques are crucial in machine learning because they help improve model performance and convergence speed, especially for algorithms that are sensitive to feature scaling, like neural networks or gradient descent-based models.
+
+ 1. **Data Normalization** :-- Normalization is the process of scaling individual data points to have a range between 0 and 1 (or sometimes -1 to 1). This method is often useful when you want to bring all features to the same scale, especially when they are on different scales.
+ 2. **Data Standardization** :-- Standardization transforms the data to have a mean of 0 and a standard deviation of 1. This technique is often used when features have different units or scales but should have equal importance.
