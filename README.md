@@ -81,3 +81,4 @@ Data Normalization and Standardization are techniques used to scale the data fea
 **Standardization** is more appropriate when the data follows a Gaussian distribution (bell curve). It's often used in algorithms that assume or are sensitive to normally distributed data, such as linear regression, logistic regression, or Support Vector Machines (SVM).
 
 ### Exploratory Data Analysis
+### Feature Selection
