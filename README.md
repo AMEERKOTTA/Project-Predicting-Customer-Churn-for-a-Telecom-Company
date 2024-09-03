@@ -48,7 +48,9 @@ The dataset is typically used to analyze factors that influence customer churn, 
 + Churn (object): Target variable indicating customer churn (Yes/No). Requires encoding (e.g., No = 0, Yes = 1).
 
 ### Handling Missing Values
-There is no Missing Values in the dataset.
+There is Missing Values in the dataset, In column TotalCharges there is 11 missing values.
+
+### Missing Value Imputation Methods
 
 ### Categorical Columns Encoding
 
