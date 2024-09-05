@@ -3,7 +3,7 @@
 # Objective:
 The goal of this project is to predict whether a customer will churn (i.e., leave the service) based on their usage patterns, demographic information, and other relevant features.
 
-### Column Explanations
+### Column Explanations 
 
 1. `customerID`: Unique identifier assigned to each customer.
 2. `gender`: The gender of the customer (e.g., Male, Female).
