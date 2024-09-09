@@ -2,11 +2,11 @@
 ## Objective:
 To build a machine learning model to accurately predict customer churn for a telecom company, enabling the company to take proactive measures to retain high-risk customers.
 
-Project Details:
-Data Collection:
+## Project Details:
+### Data Collection:
 
 Utilized a dataset containing customer demographics, account information, service usage patterns, and payment details to understand customer behavior and identify churn indicators.
-Data Preprocessing:
+### Data Preprocessing:
 
 Cleaned and prepared the data by handling missing values and outliers.
 Converted the target variable (‘Churn’) to a numeric format.
