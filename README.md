@@ -86,3 +86,6 @@ Data Normalization and Standardization are techniques used to scale the data fea
 ### Feature Selection
 ### Model Development
 ### Model Deployment
+**What is Model Deployement : -**
++ Model deployment is the process of making your trained machine learning model available to end-users, applications, or other systems to make predictions on new data.
++ The deployment can be done in various ways, and using a REST API is one of the most common methods.
