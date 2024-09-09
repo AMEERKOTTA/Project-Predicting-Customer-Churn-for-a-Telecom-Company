@@ -97,3 +97,12 @@ A REST API (Representational State Transfer Application Programming Interface) i
 + Ease of Use: HTTP is a well-understood and widely used protocol.
 + Scalability: REST APIs are stateless, which makes scaling easier.
 + Flexibility: REST APIs can handle both real-time predictions (single or batch) and asynchronous processing.
+
+**Methods for REST API Model Deployment : -**
+
+There are several ways to deploy a model using a REST API, depending on your environment, requirements, and preferred tools:
+
++ Deploy Locally Using Python Frameworks (Flask or FastAPI)
++ Deploy on a Cloud Platform (AWS, Azure, GCP)
++ Containerize and Deploy Using Docker
++ Deploy in a Production-Ready Web Server (Gunicorn, Nginx)
