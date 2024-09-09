@@ -91,6 +91,7 @@ Data Normalization and Standardization are techniques used to scale the data fea
 + The deployment can be done in various ways, and using a REST API is one of the most common methods.
 
 **REST API for Model Deployment : -**
+
 A REST API (Representational State Transfer Application Programming Interface) is a web service that allows clients (like web applications, mobile apps, or other servers) to interact with your machine learning model over HTTP. Here’s why REST APIs are popular for deploying ML models:
 
 + Language and Platform Independence: Clients can communicate with the API regardless of their programming language or platform.
