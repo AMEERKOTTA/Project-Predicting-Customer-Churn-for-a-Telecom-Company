@@ -1,4 +1,4 @@
-# Project: Customer Churn Prediction for a Telecom Company
+# Project: Customer Churn Prediction for a Telecom Company 
 ## Objective:
 To build a machine learning model to accurately predict customer churn for a telecom company, enabling the company to take proactive measures to retain high-risk customers.
 
